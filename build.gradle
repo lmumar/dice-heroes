@@ -17,6 +17,7 @@
  */
 
 buildscript {
+    System.properties['com.android.build.gradle.overrideVersionCheck'] = 'true'
     repositories {
         mavenCentral()
         maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
